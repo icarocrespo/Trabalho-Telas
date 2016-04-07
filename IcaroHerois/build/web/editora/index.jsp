@@ -1,0 +1,27 @@
+<%@include file="../cabecalho.jsp"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Editora</title>
+    </head>
+<link rel="stylesheet" type="text/css" href="estilo.css" />
+    <body>
+            <table>
+                <tr>
+                    <th>Código:</th>
+                    <td>Nome:</td>
+                    <th>Data de Fundação:</th>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Ícaro</td>
+                    <td>24/10/2000</td>
+                    <td><a href = "upd.jsp"> Editar</a></td>
+                </tr>
+            </table>
+        <a href ="add.jsp" > Adicionar </a>
+        <a href ="del.jsp" > Deletar </a>
+        <a href ="upd.jsp" > Modificar </a>
+    </body>
+</html>
